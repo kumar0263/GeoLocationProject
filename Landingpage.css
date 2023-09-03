@@ -1,0 +1,225 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+.mapbody{
+    width: 1728px;
+    height: 1271px;
+    overflow: hidden;
+    background: #360369;
+
+
+}
+
+.coordinates{
+    display: flex;
+    align-items: flex-start;
+}
+
+.latitude{
+    width: 380px;
+    height: 87px;
+    top: 231px;
+    left: 66px;
+    border-radius: 10px;
+    margin-left: 30px;
+    background: #270846;
+    color: white;
+    margin-right: 30px;
+
+}
+
+.longitude{
+    width: 430px;
+    height: 87px;
+    top: 231px;
+    left: 484px;
+    border-radius: 10px;
+    color: white;
+    background: #270846;
+
+}
+
+h2{
+    width: 1311px;
+    height: 144px;
+    top: 21px;
+    left: 66px;
+    padding-left: 10px;
+
+    font-family: Montserrat;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: white;
+
+}
+p{
+    font-family: Montserrat;
+    padding-left: 10px;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+
+}
+h2 {
+    margin-bottom: 10px; /* Adjust the margin to decrease space below h2 */
+}
+
+p {
+    margin-top: 5px; /* Adjust the margin to decrease space above p */
+}
+.coordinates, input{
+    padding-right: 50px;
+}
+iframe{
+    width: 1500px;
+    height: 783px;
+    top: 384px;
+    left: 66px;
+    padding: 80px;
+
+}
+
+h1{
+    width: 912px;
+    height: 86px;
+    top: 1315px;
+    left: 66px;
+
+    font-family: Montserrat;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #360369;
+
+
+}
+
+.weatherreport{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; 
+    padding: 20px;
+}
+.weatherreport input{
+    color: white;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+
+}
+.Location{
+    width: 389px;
+    height: 82px;
+    top: 1445px;
+    left: 66px;
+    border-radius: 10px;
+
+    border: 2px solid #360369;
+    background:#270846;
+
+}
+
+.windspeed{
+    width: 515px;
+    height: 82px;
+    top: 1446px;
+    left: 486px;
+    border-radius: 10px;
+
+    border: 2px solid #360369;
+    background:#270846;
+}
+
+.humidity{
+    width: 411px;
+    height: 82px;
+    top: 1446px;
+    left: 1032px;
+    border-radius: 10px;
+
+    border: 2px solid #360369;
+    background:#270846;
+}
+
+.TimeZone{
+    width: 515px;
+    height: 82px;
+    top: 1556px;
+    left: 65px;
+    border-radius: 10px;
+    border: 2px solid #360369;
+    background:#270846;
+}
+
+.Pressure{
+    width: 411px;
+    height: 82px;
+    top: 1556px;
+    left: 611px;
+    border-radius: 10px;
+    border: 2px solid #360369;
+    background:#270846;
+
+}
+
+.winddirection{
+    width: 630px;
+    height: 82px;
+    top: 1556px;
+    left: 1053px;
+    border-radius: 10px;
+    border: 2px solid #360369;
+    background:#270846;
+
+}
+
+.UV_index{
+    width: 362px;
+    height: 82px;
+    top: 1666px;
+    left: 66px;
+    border-radius: 10px;
+    border: 2px solid #360369;
+    background:#270846;
+
+}
+
+.feels_like{
+    width: 362px;
+    height: 82px;
+    top: 1666px;
+    left: 455px;
+    border-radius: 10px;
+    border: 2px solid #360369;
+    background:#270846;
+
+}
+
+/* .weatherreport, .grid-item{
+    background:#270846;
+} */
+
+.weatherreport input::placeholder{
+    color: white;
+    font-size: medium;
+    text-align: center;
+}
+.coordinates input::placeholder{
+    color: white;
+    font-size: medium;
+    text-align: center;
+}

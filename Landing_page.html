@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Landingpage.css">
+</head>
+<body>
+    <div class="mapbody">
+        <h2>Welcome To The Weather App</h2>
+        <P>Here is your current location</P>
+        <div class="coordinates">
+            <input type="text" id="latitude"  class="latitude" placeholder="Lat:17.4437575">
+
+            <input type="text" id="longitude"  class="longitude" placeholder="Long:78.3619205">
+        </div>
+        <iframe
+        src="https://maps.google.com/maps?q=17.4437575,78.3619205&output=embed"
+        width="1605px"
+        height="783px"
+        
+        top= "384px"
+        left= "66px"
+
+        frameborder="0"
+        style="border: 0">
+    </iframe>
+    </div>
+    
+    <h1>Your Weather Data</h1>
+    <div class="weatherreport">
+        <input type="text" id="Location"   class="Location" class="grid-item" placeholder="Location:Hyderabad">
+        <input type="text" id="windspeed"  class="windspeed" class="grid-item" placeholder="windspeed: 3kmph">
+        <input type="text" id="humidity" class="humidity" class="grid-item" placeholder="humidity: 84%" >
+        <input type="text" id="TimeZone" class="TimeZone" class="grid-item" placeholder="TimeZone: GMT +5:30">
+        <input type="text" id="Pressure" class="Pressure" class="grid-item" placeholder="Pressure : 10atm">
+        <input type="text" id="winddirection" class="winddirection" class="grid-item" placeholder="winddirection: SouthWest">
+        <input type="text" id="UV_index" class="UV_index" class="grid-item" placeholder="UV_index: 250">
+        <input type="text" id="feels_like" class="feels_like" class="grid-item" placeholder="feels_like: 24">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
